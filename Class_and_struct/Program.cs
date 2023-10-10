@@ -40,6 +40,6 @@ class Bus
 
     public void PrintStatus()
     {
-        Console.WriteLine(Load ?? );
+        //Console.WriteLine(Load ?? );
     }
 }
