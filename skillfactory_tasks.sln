@@ -29,7 +29,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FileWork", "FileWork\FileWo
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "module_9", "module_9", "{0B6FB329-CA79-40AD-A595-C5AC53E2463B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DelegatePractic", "DelegatePractic\DelegatePractic.csproj", "{63D22D1B-E3C8-4DEE-B61C-47F251E7E134}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DelegatePractic", "DelegatePractic\DelegatePractic.csproj", "{63D22D1B-E3C8-4DEE-B61C-47F251E7E134}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Practicum_9_6_1", "Practicum_9_6\Practicum_9_6_1.csproj", "{1EBF30AF-EEB5-4777-8A2A-51C82586CF52}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -73,6 +75,10 @@ Global
 		{63D22D1B-E3C8-4DEE-B61C-47F251E7E134}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{63D22D1B-E3C8-4DEE-B61C-47F251E7E134}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{63D22D1B-E3C8-4DEE-B61C-47F251E7E134}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1EBF30AF-EEB5-4777-8A2A-51C82586CF52}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1EBF30AF-EEB5-4777-8A2A-51C82586CF52}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1EBF30AF-EEB5-4777-8A2A-51C82586CF52}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1EBF30AF-EEB5-4777-8A2A-51C82586CF52}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -86,6 +92,7 @@ Global
 		{0ED46C72-B7B8-4C9F-9E27-CC62479AF758} = {CE651F35-FFBB-4D4D-B80C-E027CF591E8C}
 		{649B9AEE-D3C7-4A63-BB57-BE719A65E86A} = {CE651F35-FFBB-4D4D-B80C-E027CF591E8C}
 		{63D22D1B-E3C8-4DEE-B61C-47F251E7E134} = {0B6FB329-CA79-40AD-A595-C5AC53E2463B}
+		{1EBF30AF-EEB5-4777-8A2A-51C82586CF52} = {0B6FB329-CA79-40AD-A595-C5AC53E2463B}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {FD110C0D-34E8-4AFE-A5B0-35F608DA8072}

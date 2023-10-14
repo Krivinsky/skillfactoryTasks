@@ -17,22 +17,28 @@ namespace Practicum_9_6_1
 
 
         }
-
-        public ICollection<string> Sorting (ICollection<string> list)
-        {
-            
-            
-            return list;
-        }
-
     }
 
-    class Sort
+    public class Sort
     {
-        delegate ICollection<T> SortHendler<T>(T item);
-        SortHendler<string>? sortDelegate;
+        // Объявляем делегат
+        public delegate ICollection<string> SortHandler (ICollection<string> item);
 
-        public void Register
+        // Создаем переменную делегата
+        public SortHandler? sortDelegate;
+
+        // Регистрируем делегат
+        public void RegisterHandler(SortHandler sortHandler)
+        {
+            sortDelegate = sortHandler;
+        }
+
+        public ICollection<string> Sorting(ICollection<string> list)
+        {
+
+
+            return list;
+        }
     }
 
 }
