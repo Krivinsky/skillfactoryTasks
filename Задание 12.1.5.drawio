@@ -1,0 +1,113 @@
+<mxfile host="app.diagrams.net" modified="2023-10-31T06:32:12.632Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36 OPR/103.0.0.0" etag="KHqDgjqBNh7oGpGRcrDQ" version="22.0.8" type="github">
+  <diagram name="Страница — 1" id="NAEsJXjwoAxq_TkayWlY">
+    <mxGraphModel dx="789" dy="469" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="96d1Mz_iSO80LeRiibxX-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="96d1Mz_iSO80LeRiibxX-1" target="96d1Mz_iSO80LeRiibxX-2" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="96d1Mz_iSO80LeRiibxX-1" value="Начало" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="320" y="15" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="96d1Mz_iSO80LeRiibxX-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="96d1Mz_iSO80LeRiibxX-2" target="96d1Mz_iSO80LeRiibxX-17" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="380" y="216" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="96d1Mz_iSO80LeRiibxX-2" value="List&amp;lt;User&amp;gt; users" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="320" y="115" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="96d1Mz_iSO80LeRiibxX-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="96d1Mz_iSO80LeRiibxX-3" target="96d1Mz_iSO80LeRiibxX-8" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="96d1Mz_iSO80LeRiibxX-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="96d1Mz_iSO80LeRiibxX-3" target="96d1Mz_iSO80LeRiibxX-4" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="96d1Mz_iSO80LeRiibxX-3" value="&lt;pre style=&quot;box-sizing: border-box; overflow-wrap: break-word; background: rgb(243, 243, 243); color: rgb(49, 49, 49); line-height: 20px; margin-top: 0px; margin-bottom: 0px; text-align: left;&quot; class=&quot;hljs language-csharp&quot;&gt;&lt;font face=&quot;Helvetica&quot; style=&quot;font-size: 12px;&quot;&gt;IsPremium&lt;/font&gt;&lt;/pre&gt;" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="340" y="310" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="96d1Mz_iSO80LeRiibxX-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="96d1Mz_iSO80LeRiibxX-4" edge="1" target="96d1Mz_iSO80LeRiibxX-23">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="380" y="550" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="96d1Mz_iSO80LeRiibxX-4" value="&lt;p style=&quot;box-sizing: border-box; overflow-wrap: break-word; background: rgb(243, 243, 243); color: rgb(49, 49, 49); line-height: 100%; margin-top: 0px; margin-bottom: 0px; text-align: left;&quot;&gt;&lt;/p&gt;&lt;p style=&quot;line-height: 80%;&quot;&gt;вывести&amp;nbsp;&quot;Посетите наш новый сайт с бесплатными&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;играми free.games.for.a.fool.com&quot;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
+          <mxGeometry x="260" y="410" width="240" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="96d1Mz_iSO80LeRiibxX-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="96d1Mz_iSO80LeRiibxX-5" target="96d1Mz_iSO80LeRiibxX-24" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="96d1Mz_iSO80LeRiibxX-5" value="&lt;br&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;вывести&amp;nbsp;&quot;Купите подписку на &lt;br&gt;МыКомбо и слушайте музыку везде и всегда.&quot;&lt;br&gt;&lt;/span&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
+          <mxGeometry x="260" y="561" width="240" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="96d1Mz_iSO80LeRiibxX-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="96d1Mz_iSO80LeRiibxX-26" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="550" y="865" as="targetPoint" />
+            <mxPoint x="370" y="850" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="380" y="865" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="96d1Mz_iSO80LeRiibxX-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="96d1Mz_iSO80LeRiibxX-6" target="96d1Mz_iSO80LeRiibxX-26" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="96d1Mz_iSO80LeRiibxX-6" value="вывести&amp;nbsp;&quot;Оформите премиум-подписку на наш сервис, чтобы не видеть рекламу.&quot;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
+          <mxGeometry x="260" y="718" width="240" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="96d1Mz_iSO80LeRiibxX-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="96d1Mz_iSO80LeRiibxX-8" target="96d1Mz_iSO80LeRiibxX-17" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="710" y="250" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="550" y="990" />
+              <mxPoint x="660" y="990" />
+              <mxPoint x="660" y="246" />
+            </Array>
+            <mxPoint x="550" y="990" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="96d1Mz_iSO80LeRiibxX-8" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;вывести &quot;Привет&quot;&lt;br&gt;+&amp;nbsp;User.Name&amp;nbsp;&lt;/font&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
+          <mxGeometry x="490" y="910" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="96d1Mz_iSO80LeRiibxX-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="320" y="1010" as="targetPoint" />
+            <mxPoint x="321" y="246" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="192" y="246" />
+              <mxPoint x="192" y="1010" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="96d1Mz_iSO80LeRiibxX-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="96d1Mz_iSO80LeRiibxX-17" target="96d1Mz_iSO80LeRiibxX-3" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="96d1Mz_iSO80LeRiibxX-17" value="foreach (User u in users)" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
+          <mxGeometry x="320" y="206" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="96d1Mz_iSO80LeRiibxX-19" value="Конец" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="320" y="970" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="sqeIfSLakyZ-r_d9Zfx7-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="96d1Mz_iSO80LeRiibxX-23" target="96d1Mz_iSO80LeRiibxX-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="96d1Mz_iSO80LeRiibxX-23" value="&lt;pre style=&quot;box-sizing: border-box; overflow-wrap: break-word; background: rgb(243, 243, 243); line-height: 20px; margin-top: 0px; margin-bottom: 0px; text-align: left;&quot; class=&quot;hljs language-scss&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot; face=&quot;Helvetica&quot;&gt;&lt;font color=&quot;#313131&quot;&gt;Thread.Sleep(&lt;/font&gt;&lt;span style=&quot;box-sizing: border-box; font-style: inherit; font-variant: inherit; font-weight: inherit; font-stretch: inherit; font-size: inherit; line-height: 1.4em; font-optical-sizing: inherit; font-kerning: inherit; font-feature-settings: inherit; font-variation-settings: inherit;&quot; class=&quot;hljs-number&quot;&gt;1000&lt;/span&gt;&lt;font color=&quot;#313131&quot;&gt;);&lt;/font&gt;&lt;/font&gt;&lt;/pre&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="260" y="495" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="96d1Mz_iSO80LeRiibxX-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="96d1Mz_iSO80LeRiibxX-24" target="96d1Mz_iSO80LeRiibxX-6" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="96d1Mz_iSO80LeRiibxX-24" value="&lt;pre style=&quot;box-sizing: border-box; overflow-wrap: break-word; background: rgb(243, 243, 243); line-height: 20px; margin-top: 0px; margin-bottom: 0px; text-align: left;&quot; class=&quot;hljs language-scss&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot; face=&quot;Helvetica&quot;&gt;&lt;font color=&quot;#313131&quot;&gt;Thread.Sleep(&lt;/font&gt;&lt;span style=&quot;box-sizing: border-box; font-style: inherit; font-variant: inherit; font-weight: inherit; font-stretch: inherit; font-size: inherit; line-height: 1.4em; font-optical-sizing: inherit; font-kerning: inherit; font-feature-settings: inherit; font-variation-settings: inherit;&quot; class=&quot;hljs-number&quot;&gt;2000&lt;/span&gt;&lt;font color=&quot;#313131&quot;&gt;);&lt;/font&gt;&lt;/font&gt;&lt;/pre&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="260" y="650" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="96d1Mz_iSO80LeRiibxX-26" value="&lt;pre style=&quot;box-sizing: border-box; overflow-wrap: break-word; background: rgb(243, 243, 243); line-height: 20px; margin-top: 0px; margin-bottom: 0px; text-align: left;&quot; class=&quot;hljs language-scss&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot; face=&quot;Helvetica&quot;&gt;&lt;font color=&quot;#313131&quot;&gt;Thread.Sleep(3&lt;/font&gt;&lt;span style=&quot;box-sizing: border-box; font-style: inherit; font-variant: inherit; font-weight: inherit; font-stretch: inherit; font-size: inherit; line-height: 1.4em; font-optical-sizing: inherit; font-kerning: inherit; font-feature-settings: inherit; font-variation-settings: inherit;&quot; class=&quot;hljs-number&quot;&gt;000&lt;/span&gt;&lt;font color=&quot;#313131&quot;&gt;);&lt;/font&gt;&lt;/font&gt;&lt;/pre&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="261" y="805" width="238" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="sqeIfSLakyZ-r_d9Zfx7-1" value="true" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="420" y="320" width="60" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
