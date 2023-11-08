@@ -1,5 +1,6 @@
 ﻿using BenchmarkDotNet.Attributes;
 using BenchmarkDotNet.Running;
+using System.Collections;
 using System.Diagnostics;
 using System.Text;
 
@@ -20,13 +21,11 @@ namespace Algorithms
         public string UseString()
         {
             string value = "";
-
             for (int i = 0; i < Iterations; i++)
             {
                 value += i.ToString();
                 value += " ";
             }
-
             return value;
         }
 
