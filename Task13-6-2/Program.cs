@@ -4,13 +4,13 @@
     {
         static void Main(string[] args)
         {
-            List<string> list = new List<string>();
-
             string text = File.ReadAllText(@"C:\Users\Eugene\source\repos\skillfactory_tasks\Task13-6-1\Text.txt");
 
             var noPunctuationText = new string(text.Where(c => !char.IsPunctuation(c)).ToArray());
 
             string[] stings = noPunctuationText.Split(' ', '\r', '\n');
+
+            List<string> list = new List<string>();
 
             foreach (string str in stings)
             {
@@ -20,38 +20,38 @@
                 }
             }
 
-            GetTenWords(list);
+            List<KeyValuePair<string, int>> keyValuePairs = GetTenWords(list);
+            Console.WriteLine("10 слов чаще всего встречающиеся в тексте");
+
+            foreach (KeyValuePair<string, int> pair in keyValuePairs)
+            {
+                Console.WriteLine($" Слово: \"{pair.Key}\" встречается - {pair.Value} раз");
+            }
 
         }
 
-
-        public static List<string> GetTenWords(List<string> list)
+        public static List<KeyValuePair<string, int>> GetTenWords(List<string> list)
         {
-            Dictionary<string, int> tenWords = new Dictionary<string, int>();
+            Dictionary<string, int> allText = new Dictionary<string, int>();
             
             foreach (string str in list)
             {
-                if (!tenWords.ContainsKey(str))
+                if (!allText.ContainsKey(str))
                 {
-                    tenWords.Add(str, 1);
+                    allText.Add(str, 1);
                 } else
                 {
-                    int i = tenWords[str];
+                    int i = allText[str];
                     i++;
-                    tenWords[str] = i;
+                    allText[str] = i;
                 }
             }
+            
+            List<KeyValuePair <string, int>> pair = allText.ToList();
+            
+            pair.Sort((x, y) => y.Value.CompareTo(x.Value));
 
-            List<KeyValuePair <string, int>> pair = tenWords.OrderBy(x => x.Value).ToList();
-
-            List<string> strings = new List<string>();
-
-            for (int i = pair.Count; i < (pair.Count-9); i++)
-            {
-                strings.Add(pair[i].Key);
-            }
-
-            return strings;
+            return pair.GetRange(0, 10);   
         }
     }
 }
