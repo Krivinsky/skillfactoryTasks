@@ -1,8 +1,8 @@
-﻿namespace Task
+﻿namespace Task_13_1_6
 {
     class Program
     {
-        static string filePath  = @"C:\Users\Eugene\source\repos\skillfactory_tasks\Task_13_1_6\text.txt";
+        static string filePath = @"C:\Users\Eugene\source\repos\skillfactory_tasks\Task_13_1_6\text.txt";
 
         static void Main(string[] args)
         {
@@ -13,7 +13,7 @@
             }
         }
 
-        public static void AnotherGetWord ()
+        public static void AnotherGetWord()
         {
             // читаем весь файл с рабочего стола в строку текста
             string text = File.ReadAllText(@"C:\Users\Eugene\source\repos\skillfactory_tasks\Task_13_1_6\text.txt");

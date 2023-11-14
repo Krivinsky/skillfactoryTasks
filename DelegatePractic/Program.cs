@@ -1,4 +1,4 @@
-﻿namespace DelegatePractices
+﻿namespace DelegatePractic
 {
     class Program
     {

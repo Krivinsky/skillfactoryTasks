@@ -51,6 +51,11 @@
             
             pair.Sort((x, y) => y.Value.CompareTo(x.Value));
 
+            //дополнение
+            var result = allText.OrderByDescending(x => x.Value).Take(10).ToList();
+                         
+
+
             return pair.GetRange(0, 10);   
         }
     }

@@ -1,6 +1,6 @@
 ﻿using System.Collections;
 
-namespace CountWords
+namespace _13_2_6
 {
     class Program
     {
