@@ -1,6 +1,8 @@
-﻿namespace Example15
+﻿
+
+namespace Example_15
 {
-    internal class Program
+    public class Program
     {
         static void Main(string[] args)
         {
@@ -17,6 +19,26 @@
             };
 
             var itCompanies = softwareManufacturers.Union(hardwareManufacturers);
+
+
+            var contacts = new List<Contact>()
+            {
+                new Contact() { Name = "Андрей", Phone = 79994500508 },
+                new Contact() { Name = "Сергей", Phone = 799990455 },
+                new Contact() { Name = "Иван", Phone = 79999675334 },
+                new Contact() { Name = "Игорь", Phone = 8884994 },
+                new Contact() { Name = "Анна", Phone = 665565656 },
+                new Contact() { Name = "Василий", Phone = 3434 }
+            };
+
+            //Посчитайте, у скольких из них неверные номера телефонов (верный телефон содержит 11 цифр и начинается с семёрки).
+
+            var rightContact = 
+               (from contact in contacts
+                let str = contact.Phone.ToString()
+                where str.StartsWith('7') && str.Length == 11
+                select contact)
+                .Count();
 
 
         }
