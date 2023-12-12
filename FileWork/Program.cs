@@ -1,11 +1,11 @@
 ﻿class FileWriter
 {
-    static void Main(string[] args)
-    {
-        string filePath = @"C:\Users\Eugene\source\repos\skillfactory_tasks\FileWork\Program.cs";
-        AddTextToFile(filePath);
-        ReadProgramFile(filePath);
-    }
+    //static void Main(string[] args)
+    //{
+    //    string filePath = @"C:\Users\Eugene\source\repos\skillfactory_tasks\FileWork\Program.cs";
+    //    AddTextToFile(filePath);
+    //    ReadProgramFile(filePath);
+    //}
 
     public static void AddTextToFile(string filePath)
     {

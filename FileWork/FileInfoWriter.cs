@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace FileWork
 {
-    class FileInfoWriter
+    public class FileInfoWriter
     {
         static void Main(string[] args)
         {

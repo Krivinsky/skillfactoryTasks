@@ -23,8 +23,6 @@ namespace _13_2_6
             Console.WriteLine(symbols.Count);
 
             int[] ints = new int[characters.Length];
-
-            ints.Length
         }
     }
 }
