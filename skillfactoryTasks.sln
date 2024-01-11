@@ -115,9 +115,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Calculator.Tests", "Calcula
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "module_17", "module_17", "{20F55CEA-6972-49AE-91F9-95031925FA84}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChainOfResponsibilityExample", "ChainOfResponsibilityExample\ChainOfResponsibilityExample.csproj", "{DC49E808-035F-4A75-9CAE-DF88042522AB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ChainOfResponsibilityExample", "ChainOfResponsibilityExample\ChainOfResponsibilityExample.csproj", "{DC49E808-035F-4A75-9CAE-DF88042522AB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ObserverExample", "ObserverExample\ObserverExample.csproj", "{4B85FDD8-BA39-4E7C-829D-887212FB1EE2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ObserverExample", "ObserverExample\ObserverExample.csproj", "{4B85FDD8-BA39-4E7C-829D-887212FB1EE2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task17-6-6", "Task17-6-6\Task17-6-6.csproj", "{1FA04194-B556-4D6D-9A1B-111B978E6BD6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -293,6 +295,10 @@ Global
 		{4B85FDD8-BA39-4E7C-829D-887212FB1EE2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4B85FDD8-BA39-4E7C-829D-887212FB1EE2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4B85FDD8-BA39-4E7C-829D-887212FB1EE2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1FA04194-B556-4D6D-9A1B-111B978E6BD6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1FA04194-B556-4D6D-9A1B-111B978E6BD6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1FA04194-B556-4D6D-9A1B-111B978E6BD6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1FA04194-B556-4D6D-9A1B-111B978E6BD6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -343,6 +349,7 @@ Global
 		{751316F1-AFA9-400E-A5F5-3D97232DDAF1} = {7266CF26-D5A8-4CB9-A999-2D61A56B9A99}
 		{DC49E808-035F-4A75-9CAE-DF88042522AB} = {20F55CEA-6972-49AE-91F9-95031925FA84}
 		{4B85FDD8-BA39-4E7C-829D-887212FB1EE2} = {20F55CEA-6972-49AE-91F9-95031925FA84}
+		{1FA04194-B556-4D6D-9A1B-111B978E6BD6} = {20F55CEA-6972-49AE-91F9-95031925FA84}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {FD110C0D-34E8-4AFE-A5B0-35F608DA8072}
